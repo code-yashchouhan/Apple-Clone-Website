@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+}
+nav{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 50px;
+    background-color: #1D1D1F;
+}
+nav p{
+    font-size: 0.85rem;
+    color: rgb(189, 189, 189);
+}
+nav i{
+    color: rgb(189, 189, 189);
+}
+.page-1{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image:url(https://www.apple.com/v/home/bp/images/heroes/iphone-family/hero_iphone_family_a__c7v3mvx3jv42_medium_2x.jpg);
+}
+.page-1 .top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page-1 .top .content{
+    text-align: center;
+    /* display: flex; */
+    /* background-color: red; */
+    height: fit-content;
+    margin-top: 3rem;
+}
+.page-1 .top .content h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.page-1 .top .content p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+.content .buttons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.content .buttons .active{
+    border: none;
+    background-color:#0071E3;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 5rem;
+}
+.content .buttons .border{
+    border: none;
+    background-color:transparent;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 5rem;
+    font-weight: 400;
+}
+.page-2{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+background-image: url(https://www.apple.com/v/home/bp/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_medium_2x.jpg);
+}
+.page-2 .top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+.page-2 .top .content{
+    text-align: center;
+    height: fit-content;
+    margin-top: 3rem;
+}
+.page-2 .top .content h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.page-2 .top .content p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+.page-2 .top .content .buttons{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.page-2 .top .content .buttons .active{
+    border: none;
+    background-color:#0071E3;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 5rem;
+}
+.page-2 .top .content .buttons .border{
+    border: none;
+    background-color:transparent;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 5rem;
+    font-weight: 400;
+}
+.page-3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.page-3 .right{
+    width: 50%;
+    height: 100%;
+ 
+}
+.page-3 > div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.page-3 .content .buttons{
+    margin-top: 0.5rem;
+}
+.page-3 .content{
+    margin-top: 3rem;
+    text-align: center;
+}
+.page-3 .left .content h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.page-3 .left .content p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+.page-3 .right .content h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.page-3 .right .content .p1{
+    font-size: 1.1rem;
+    /* margin-top: 0.5rem; */
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+.page-3 .right .content .p2{
+    opacity: 0.5;
+    /* margin-top: 0.5rem; */
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+}
+.page-3 .left{    
+    width: 50%;
+    height: 100%;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    /* background-position: left; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/home/bp/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium_2x.jpg);
+}
+.page-3 .right{   
+     width: 50%;
+    height: 100%;
+    background-size: cover;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    /* background-position: right; */
+    background-position: center;
+    background-repeat: no-repeat;
+background-image: url(https://www.apple.com/v/home/bp/images/promos/apple-intelligence/promo_ai__couihqxznyvm_medium_2x.jpg);
+}
+.page-4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.page-4 .content{
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+.page-4 .left{
+    width: 50%;
+    height: 100%;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bp/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_small_2x.jpg);
+}
+.page-4 .right{
+    width: 50%;
+    height: 100%;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bp/images/heroes/apple-vision-pro-enhanced/hero_apple_vision_pro_enhanced_endframe__b917czne63hy_small_2x_2x.jpg);
+}
+.page-4 .left .buttons{
+    gap: 0.5rem;
+}
+.page-4 .left .buttons button{
+    font-size: 0.8rem;
+}
+.page-4 .content{
+    margin-top: 3rem;
+    text-align: center;
+}
+.page-4 .left .content h1{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.page-4 .left .content .p1{
+    font-size: .9rem;
+    font-weight: 400;
+    color: red;
+    line-height: 1rem;
+}
+.page-4 .left .content .p2{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.page-4 .right .content{
+    margin-top: 66%;
+}
+.page-4 .right .content h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.page-4 .right .content p{
+    font-size: 1.1rem;
+}
+.page-5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    color: black;
+}
+.page-5 .content{
+    margin-top: 3rem;
+    text-align: center;
+}
+.page-5 .left{
+    width: 50%;
+    height: 100%;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bp/images/promos/apple-card/promo_apple_card__5cm7draujpey_small_2x.jpg);
+}
+.page-5 .right{
+    width: 50%;
+    height: 100%;
+    color: rgb(10, 0, 0);
+    background-color: #F5F5F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bp/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+}
+.page-5 .content{
+    margin-top: 3rem;
+    text-align: center;
+}
+.page-5 .left .content h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.page-5 .left .content .p1{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.page-5 .left .content .p2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.page-5 .right .content h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.page-5 .right .content p{
+    font-size: 5rem;/* doubt */
+}
+.page-6{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: #F5F5F7;   
+    padding: 1rem 8.2rem;
+}
+.page-6 .content p a{
+    color: black;
+    opacity: 1;
+}
+.page-6 .content p{
+    margin-bottom: 0.6rem;
+}
+.page-6 .content{
+    opacity: 0.7;   
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.page-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.page-bottom .partition div{
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+}
+.page-bottom .partition div p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    color: rgb(82, 82, 82);
+}
+hr{
+    opacity: 0.4;
+}
+.page-bottom .partition div h3{
+    color: rgb(29, 29, 29);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.copyright hr{
+    margin: 1rem 0;
+}
+.copyright p{
+    font-size: 0.8rem;
+    color: rgb(103, 103, 103);
+}
+.copyright > div{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.copyright > div .left .links p{
+    border-right: 1px solid grey;
+    padding: 0rem 0.5rem;
+}
+.copyright > div .left .links{
+    display: flex;
+    align-items: center;
+}
+.copyright > div .left{
+    display: flex;
+    gap: 2rem;
+}
